@@ -1,6 +1,6 @@
 <?php
 
-    include_once 'includes/dbconnect.php';
+    include_once 'dbconnect.php';
 
 ?>
 
@@ -16,7 +16,7 @@
 
 <p>Post in the Wall</p>
 
-    <form  action="includes/postemail.php" method="POST">
+    <form  action="postemail.php" method="POST">
         <input type="Text" name="email" >
         <button type="submit" name="submit">Post it</button>
     </form>
